@@ -10,7 +10,7 @@ npm install @ribeirogab/eslint-config
 
 ## Setup
 
-Create `.eslintrc` file and extends `@ribeirogab/npm-config`
+Create `.eslintrc` file and extends `@ribeirogab/eslint-config`
 
 ```json
 {

@@ -1,7 +1,7 @@
 {
   "name": "@ribeirogab/eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom ESLint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/ribeirogab/eslint-config.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eslint config",
+    "custom eslint config",
+    "eslint"
+  ],
+  "author": "ribeirogab <ribeirogabx@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ribeirogab/eslint-config/issues"
   },

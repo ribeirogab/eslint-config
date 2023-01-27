@@ -2,7 +2,7 @@
 
 ## Install
 
-To install free-translate, you can use NPM:
+To install `@ribeirogab/eslint-config`, you can use NPM:
 
 ```zsh
 npm install @ribeirogab/eslint-config

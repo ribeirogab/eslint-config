@@ -1,6 +1,6 @@
 {
   "name": "@ribeirogab/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Custom ESLint config",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/ribeirogab/eslint-config/issues"
   },
   "homepage": "https://github.com/ribeirogab/eslint-config#readme",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^16.7.13",
     "@typescript-eslint/eslint-plugin": "5.35.1",
     "@typescript-eslint/parser": "5.35.1",

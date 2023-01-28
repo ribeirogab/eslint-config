@@ -4,3 +4,4 @@ tests
 
 .DS_Store
 yarn.lock
+.eslintrc.js

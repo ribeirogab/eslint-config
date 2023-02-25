@@ -12,11 +12,22 @@ npm install @ribeirogab/eslint-config -save-dev
 
 Create `.eslintrc` file and extends `@ribeirogab/eslint-config`
 
+**Node.js:**
+
 ```json
 {
   "extends": [
     "@ribeirogab/eslint-config/node"
-    // "extends": "@ribeirogab/eslint-config/react"
+  ]
+}
+```
+
+**React.js:**
+
+```json
+{
+  "extends": [
+    "@ribeirogab/eslint-config/react"
   ]
 }
 ```

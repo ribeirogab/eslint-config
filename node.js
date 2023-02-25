@@ -1,3 +1,5 @@
+const prettierConfig = require('./prettier.config');
+
 module.exports = {
   root: true,
   ignorePatterns: ['node_modules', 'dist', 'coverage'],
@@ -66,7 +68,7 @@ module.exports = {
       files: ['*'], // Post shared rules
       extends: ['prettier'],
       rules: {
-        'prettier/prettier': ['error', { endOfLine: 'auto' }],
+        'prettier/prettier': ['error', { ...prettierConfig }],
         'no-warning-comments': ['warn', { location: 'anywhere' }],
         'no-autofix/capitalized-comments': [
           'warn',

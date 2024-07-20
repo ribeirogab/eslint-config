@@ -1,7 +1,11 @@
 const prettierConfig = require('./prettier.config');
 
 module.exports = {
-  extends: ['@rocketseat/eslint-config/react'],
+  extends: [
+    '@rocketseat/eslint-config/next',
+    'plugin:tailwindcss/recommended',
+    'next/core-web-vitals',
+  ],
   rules: {
     'prettier/prettier': [
       'error',

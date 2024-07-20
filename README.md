@@ -5,12 +5,12 @@
 To install `@ribeirogab/eslint-config`, you can use NPM:
 
 ```zsh
-npm install @ribeirogab/eslint-config -save-dev
+npm i @ribeirogab/eslint-config -D
 ```
 
 ## Setup
 
-Create `.eslintrc` file and extends `@ribeirogab/eslint-config`
+Create `.eslintrc.json` file and extends `@ribeirogab/eslint-config`
 
 **Node.js:**
 
@@ -28,6 +28,16 @@ Create `.eslintrc` file and extends `@ribeirogab/eslint-config`
 {
   "extends": [
     "@ribeirogab/eslint-config/react"
+  ]
+}
+```
+
+**Next.js:**
+
+```json
+{
+  "extends": [
+    "@ribeirogab/eslint-config/next"
   ]
 }
 ```
